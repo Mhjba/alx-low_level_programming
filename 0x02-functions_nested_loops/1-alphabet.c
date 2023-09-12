@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
- * main -Entry piont
- * description: print-alphabet
+ * print_alphabet - print all alphabet in lowercase
  */
+
 void print_alphabet(void)
 {
 	char ch;
-	for(ch = 'a'; ch <= 'z'; ch++)
-	_putchar (ch);
-   _putchar('\n');
-  
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+
+	_putchar('\n');
 }
