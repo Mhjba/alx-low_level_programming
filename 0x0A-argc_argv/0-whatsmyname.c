@@ -2,14 +2,12 @@
 
 /**
  * main -print name of program
- * @argc: int to arguments
- * @argv: string to arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  * return: 0
  */
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		printf("%s\n", argv[0]);
-
+	printf("%s\n", *argv);
 	return (0);
 }
