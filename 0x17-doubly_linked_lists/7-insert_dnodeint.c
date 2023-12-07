@@ -2,9 +2,9 @@
 
 /**
  * insert_dnodeint_at_index - Inserts a new node
- * @h: pointer 
+ * @h: pointer
  * @idx: index
- * @n: integer 
+ * @n: integer
  *
  * Return: function fails
  */
