@@ -2,8 +2,8 @@
 #include <math.h>
 
 /**
- * jump_search - Searche value in sorted array 
- *  
+ * jump_search - Searche value in sorted array
+ *
  * @array: input array
  * @size: size of the array
  * @value: value to search in
